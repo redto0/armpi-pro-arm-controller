@@ -1,0 +1,6 @@
+bus_servo_controller:
+  ros__parameters:
+    servo_ids: [1]  # List of servo IDs to control
+    default_duration_ms: 1000  # Default movement duration in milliseconds
+    publish_rate_hz: 10.0  # Status publishing rate
+    auto_detect_servos: false  # Experimental: set to true to auto-detect servos

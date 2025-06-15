@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>bus_servo_controller</name>
+  <version>0.1.0</version>
+  <description>ROS2 Humble wrapper for Hiwonder Bus Servo control</description>
+  
+  <maintainer email="aboccacc@umich.edu">Alexander Boccaccio</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>builtin_interfaces</depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>python3-pyserial</exec_depend>
+  <exec_depend>python3-smbus2</exec_depend>
+  <exec_depend>rpi.gpio</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+</package>
